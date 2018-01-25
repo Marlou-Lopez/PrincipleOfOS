@@ -11,7 +11,7 @@
     <header>
         <div class="container">
             <div class="header-title">
-                <h2>Principles of OS</h2>
+                <h2>Principles of Operating Systems</h2>
             </div>
         </div>
     </header>
