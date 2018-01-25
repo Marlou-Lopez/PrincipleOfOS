@@ -1,0 +1,157 @@
+body{
+    font: 15px/1.0 Intro, Arial, Helvetica;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+/*Global*/
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*Header*/
+
+header{
+    background-color: #eaeaed;
+    color: #300032;
+    padding: 10px;
+    min-height: 70px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.header-title{
+    font-size: 20px;
+}   
+
+#menu-card{
+    text-align: center;
+    width : 100%;
+    min-height: 500px;
+    background: rgba(48,0,50,1);
+    background: -moz-linear-gradient(top, rgba(48,0,50,1) 6%, rgba(48,0,50,1) 15%, rgba(48,0,50,1) 19%, rgba(48,0,50,1) 19%, rgba(21,0,22,1) 56%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(6%, rgba(48,0,50,1)), color-stop(15%, rgba(48,0,50,1)), color-stop(19%, rgba(48,0,50,1)), color-stop(19%, rgba(48,0,50,1)), color-stop(56%, rgba(21,0,22,1)), color-stop(85%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,1)));
+    background: -webkit-linear-gradient(top, rgba(48,0,50,1) 6%, rgba(48,0,50,1) 15%, rgba(48,0,50,1) 19%, rgba(48,0,50,1) 19%, rgba(21,0,22,1) 56%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%);
+    background: -o-linear-gradient(top, rgba(48,0,50,1) 6%, rgba(48,0,50,1) 15%, rgba(48,0,50,1) 19%, rgba(48,0,50,1) 19%, rgba(21,0,22,1) 56%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%);
+    background: -ms-linear-gradient(top, rgba(48,0,50,1) 6%, rgba(48,0,50,1) 15%, rgba(48,0,50,1) 19%, rgba(48,0,50,1) 19%, rgba(21,0,22,1) 56%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(48,0,50,1) 6%, rgba(48,0,50,1) 15%, rgba(48,0,50,1) 19%, rgba(48,0,50,1) 19%, rgba(21,0,22,1) 56%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#300032', endColorstr='#000000', GradientType=0 );
+}
+
+.card-container{
+    display: inline-block;
+    width: 30%;
+    cursor: pointer;
+    height: 520px;
+    perspective: 600;
+    position: relative;
+}
+
+.card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+}
+
+.card:hover{
+    transform: rotateY(180deg);
+}
+
+.card .side {
+    backface-visibility: hidden;
+    border-radius: 6px;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    background: #eaeaed;
+    color: #300032;
+}
+
+.card .back {
+    background: #eaeaed;
+    color: #300032;
+    line-height: 40px;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
+
+a{
+    text-decoration: none;
+    color: #300032;
+}
+
+a:hover{
+    background-color: #300032;
+    color: #eaeaed;
+}
+
+a:active{
+    text-decoration: none;
+    color: #300032;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+#menu-card .card-container .card img{
+    height: 100%;
+} 
+
+.card-title{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.center{
+    text-align: center;
+    border-radius: 6px;
+    background-color: #eaeaed; 
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+#left{
+    float:left; 
+    width: 50%;
+    margin: auto;
+    border-radius: 6px;
+    background-color: #eaeaed;
+}
+
+#right{
+    float:left; 
+    width: 50%;
+}
+
+td{
+    padding: 15px;
+    border-width: 1px;
+    border-color: #eaeaed;
+    color: #300032;
+}
+
+thead td{
+    background-color: #300032;
+    color: #eaeaed;
+}
+
+#tableJobs{
+    margin-top: 10px;
+}
+
+footer{
+    padding: 10px;
+    background-color: #300032;
+    text-align: center;
+    margin-top: 5px;
+    color: #e9ccf1;
+}
