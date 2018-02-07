@@ -23,7 +23,7 @@
 
     <section id = "menu-card">
         <div class = "center"></br>
-            <form action="#" method = "POST">
+            <form action="compute.php" method = "POST">
                 <h1 style = "color:#300032;">Select No. of Jobs:</h1>
                     <?php
                         echo '<select name = "numJobs" id = "dropdown" onchange = "getValue();">';

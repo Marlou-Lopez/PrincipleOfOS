@@ -54,7 +54,7 @@
                 </div>
             </div>
 
-            <div class="card-container">
+            <!-- <div class="card-container">
                 <div class="card">
                     <div class="side"><p class = "card-title">FILE MANAGEMENT</p>
                         <div>
@@ -63,7 +63,7 @@
                     </div>
                     <div class="side back"><h2>Ops Provoked</h2></div>
                 </div>
-            </div>
+            </div> -->
     </section>
 
     <footer>
