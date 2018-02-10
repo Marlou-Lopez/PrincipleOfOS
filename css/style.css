@@ -43,11 +43,12 @@ header{
 
 .card-container{
     display: inline-block;
-    width: 30%;
+    width: 45%;
     cursor: pointer;
     height: 520px;
     perspective: 600;
     position: relative;
+   
 }
 
 .card {
@@ -106,7 +107,7 @@ ul{
 } 
 
 .card-title{
-    font-size: 25px;
+    font-size: 35px;
     margin-bottom: 50px;
 }
 
@@ -130,6 +131,9 @@ ul{
 #right{
     float:left; 
     width: 50%;
+    margin: auto;
+    border-radius: 6px;
+    background-color: #eaeaed;
 }
 
 td{
@@ -155,3 +159,25 @@ footer{
     margin-top: 5px;
     color: #e9ccf1;
 }
+
+/* Gantt Chart*/
+
+.bar-inner{
+    width: 0%;
+    height: 80px;
+    margin-bottom: 2%;
+    background-color: blue;
+    position: relative;
+    -webkit-transition: width .8s linear;
+    -moz-transition: width .8s linear;
+    transition: width .8s linear;    
+}
+
+ .bar-inner::after{
+    position: absolute;
+    left: 2.5%;
+    content: attr(data-job);
+    line-height: 30px;
+    font-family: Intro;
+    font-size: 15px;
+} 

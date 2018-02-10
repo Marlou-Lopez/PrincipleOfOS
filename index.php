@@ -21,7 +21,7 @@
                 <div class="card">
                     <div class="side"><p class = "card-title">PROCESS MANAGEMENT</p>
                         <div>
-                            <img src="./img/time.png" alt="time">
+                            <img src="./img/clock-5-350.png" alt="time">
                         </div>
                     </div>
                     <div class="side back">
@@ -47,7 +47,7 @@
                 <div class="card">
                     <div class="side"><p class = "card-title">STORAGE MANAGEMENT</p>
                         <div>
-                            <img src="./img/database.png" alt="database">
+                            <img src="./img/database-350.png" alt="database">
                         </div>
                     </div>
                     <div class="side back"><h2>WEAK SHIT TIN</h2></div>

@@ -54,7 +54,7 @@ function produceTable(num_rows){
     }
     var tbody = '';
 
-     for( var i=0; i<num_rows;i++)
+     for( var i=0; i < num_rows;i++)
     {
         tbody += '<tr>';
         tbody += '<td> <input type = "hidden" form = "JobForm" name = "JobArray['+i+'][0]" value = "'+(i+1)+'">'+(i+1)+'</td>';
